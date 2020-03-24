@@ -96,7 +96,10 @@ nav{
 
 }
 a:hover{
-	text-decoration: line-through;
+	color:#00B0FB;
+}
+.nav2__a:hover{
+	color:#3A3A3A;
 }
 
 a, .nav1__content, select, .palka {
