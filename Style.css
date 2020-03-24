@@ -1,0 +1,170 @@
+body{
+	background: 
+	url(img/background.png)  center;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.icon, .icon2{
+  border-radius: 50%;
+  background-color: rgb(125, 177, 34);
+  position: absolute;
+  left: 1063px;
+  top: 45px;
+  width: 35px;
+  height: 35px;
+  z-index: 268;
+}
+.icon2{
+  left: 1102px;
+}
+
+
+.hedear{
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+nav{
+	display: inline-block;
+
+
+}
+.logo{
+	position: absolute;
+	top: 20px;
+	display: inline-block;
+	color: #656565;
+	font-size: 36pt;
+	font-weight: bold;
+	padding-top: 60px;
+	padding-left: 200px;
+}
+
+.nav1__menu{
+	position: absolute;
+	right: 170px;
+}
+.nav1{
+	position: absolute;
+	background-color: #4CB1CA;
+	height: 50px;
+	box-sizing: border-box;
+	padding: 15px 100px 0px 0px; 
+	text-align: right;
+	font-size: 13pt;
+	width: 100%;
+	min-width: 1200px;
+
+}
+.fas{
+	color: white;
+	position: absolute;
+}
+.fa-shopping-cart{
+	top: 10px;
+	right: 10px;
+}
+.fa-tags{
+	top: 10px;
+	right: 8px;
+}
+
+.container2{
+
+	padding-bottom: 170px;
+}
+
+.nav2{
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 525px;
+	height: 100px;
+	box-sizing: border-box;
+	padding-right: 50%;
+	padding-top: 50px;
+
+	width: 1380px;
+	
+
+}
+a:hover{
+	text-decoration: line-through;
+}
+
+a, .nav1__content, select, .palka {
+	text-decoration: none;
+	color: #E7F5F8;
+	margin: 0 5px;
+}
+
+.nav2__a, .cart{
+	color: #656565; 
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.search{
+	width: 400px; 	
+	height: 48px;
+
+}
+.wrapper__search{
+	box-sizing: content-box;
+	position: absolute;
+	right: 350px;
+	width: 400px;
+	top: 40px;
+	
+
+}
+.cart{
+	display: inline-block;
+	position: absolute;
+	left: 1142px;
+	top: 50px; 
+}
+.search__btn:hover {
+    opacity: 0.8;
+}
+.search__btn {
+    position: absolute;
+    top: 7px;
+    right: 13px;
+    display: block;
+    width: 36px;
+    height: 36px;
+    opacity: 0.5;
+    border: none;
+    background: url(img/search.jpg) center center no-repeat;
+    background-size: 18px 18px;
+}
+
+ input {
+    overflow: visible;
+}
+input {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    outline: none;
+}
+select{
+	border: none;
+	background-color: #4CB1CA;
+}
+.nav1__content{
+	position: absolute;
+	left: 190px;
+	top: 15px;
+
+}
+
+
+
+
