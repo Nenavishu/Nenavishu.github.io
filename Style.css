@@ -130,7 +130,7 @@ a, .nav1__content, select, .palka {
 	left: 1142px;
 	top: 50px; 
 }
-.search__btn:hover {
+.search__btn:hover, .icon:hover, .icon2:hover {
     opacity: 0.8;
 }
 .search__btn {
