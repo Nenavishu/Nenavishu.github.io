@@ -96,10 +96,12 @@ nav{
 
 }
 a:hover{
-	color:#00B0FB;
+	color:#FEA11F;
+	opacity: 0.8;
 }
 .nav2__a:hover{
-	color:#3A3A3A;
+	color:#5181B8;
+	opacity: 0.8;
 }
 
 a, .nav1__content, select, .palka {
